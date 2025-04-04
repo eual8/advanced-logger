@@ -1,5 +1,5 @@
 {
-    "name": "brackets/advanced-logger",
+    "name": "develop-algoritma/advanced-logger",
     "description": "Advanced logger",
     "keywords": [
         "logger",
@@ -16,15 +16,13 @@
         }
     ],
     "require": {
-        "php": "^8.0|^8.1",
-        "illuminate/support": "^9.0|^10.0",
-        "illuminate/http": "^9.0|^10.0",
-        "monolog/monolog": "^2.9|^3.3",
+        "php": "^8.1",
+         "laravel/framework": "^9.0|^10.0|^11.0|^12.0",
+        "monolog/monolog": "^3.*",
         "ext-json": "*"
     },
     "require-dev": {
-        "laravel/framework": "^9.0|^10.0",
-        "phpunit/phpunit": "^9.5|^10.0",
+        "phpunit/phpunit": "^9.5|^10.0|^11.0",
         "orchestra/testbench": "~8.0"
     },
     "autoload": {
